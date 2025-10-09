@@ -40,6 +40,7 @@ export const deleteUsuario = async (id:string) =>{
 // método para autenticação do do usuário (login) a senha é comparada
 export const autenticaUsuario = async(email:string, senha:string) =>{
     await connectMongo();
+    await criarAdmin();//criar o usuario ADMIN
     //buscar o usuário ( email)
     const usuario = await Usuario.find({email}).select("+senha");
     //se usuário não encontrado
