@@ -1,0 +1,62 @@
+/* Estilização para o componente form-usuario */
+
+:host {
+    display: block;
+    padding: 16px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+}
+
+button {
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: #d9534f;
+    font-size: 12px;
+}
+.botoes{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+
+}

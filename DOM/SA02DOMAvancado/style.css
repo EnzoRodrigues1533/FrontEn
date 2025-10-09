@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#quiz-interativo {
+    background: white;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:disabled {
+    background: gray;
+    cursor: not-allowed;
+}
+
+.opcao {
+    display: block;
+    padding: 10px;
+    background: lightblue;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.opcao:hover {
+    background: dodgerblue;
+    color: white;
+}
+
+.correta {
+    background: green !important;
+    color: white;
+}
+
+.errada {
+    background: red !important;
+    color: white;
+}
