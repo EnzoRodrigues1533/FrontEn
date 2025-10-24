@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "724578803039",
+    "project_id": "bateponto-f5f02",
+    "storage_bucket": "bateponto-f5f02.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724578803039:android:31dd237b280a87fe046aea",
+        "android_client_info": {
+          "package_name": "com.example.bateponto_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFh2Cxq5spjWh5sPvRL6E6OkSAXlh7X8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
